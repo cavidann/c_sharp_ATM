@@ -10,7 +10,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-           int[] vahidler= new int[] { 100, 50, 20, 10, 5 };
+           int[] vahidler= new int[5] { 100, 50, 20, 10, 5 };
             Console.Write("Cixarmaq istediyiniz miqdari daxil edin : ");
             int reqem=Convert.ToInt32(Console.ReadLine());
            if (reqem%5!=0)
